@@ -31,3 +31,6 @@ If you use the existing script import you will also need the follow to include t
 
 You can install it with
 `npm install --save-dev whatwg-fetch`
+
+## Using with github pages
+You can show just your build output in github pages using a subtree. See [Deploying a subfolder to GitHub Pages](https://gist.github.com/cobyism/4730490). This repository uses a build directory while the linked article uses a dist directory so you will need to replace all instances of dist with build
